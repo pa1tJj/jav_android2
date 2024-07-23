@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rbtNam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab2.bai3.ThongTinGiaoVien"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin giáo viên"
+        android:textSize="40sp"
+        android:textColor="#009688"
+        android:gravity="center"
+        android:layout_marginTop="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Mã GV"
+            android:textSize="20sp"
+            android:textColor="#009688"/>
+        <EditText
+            android:id="@+id/txtMaGV"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/khungtext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Họ tên"
+            android:textSize="20sp"
+            android:textColor="#009688"/>
+        <EditText
+            android:id="@+id/txtHoTen"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/khungtext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Giới tính"
+            android:textSize="20sp"
+            android:textColor="#009688"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbNam"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:id="@+id/rbNu"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Nữ"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Sở thích"
+                android:textColor="#009688"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbXemPhim"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Xem phim"
+                android:textColor="#009688" />
+
+            <CheckBox
+                android:id="@+id/cbNgheNhac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nghe nhạc"
+                android:textColor="#009688" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="100dp">
+            <CheckBox
+                android:id="@+id/cbCaHat"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Ca hát"
+                android:textColor="#009688" />
+
+            <CheckBox
+                android:id="@+id/cbDuLich"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Du lịch"
+                android:textColor="#009688" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="100dp">
+
+            <CheckBox
+                android:id="@+id/cbDocSach"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Đọc sách"
+                android:textColor="#009688" />
+
+            <CheckBox
+                android:id="@+id/cbTheDuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thể dục"
+                android:textColor="#009688" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btHienThi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Hiển thị"
+            android:layout_marginRight="10dp"
+            android:background="#009688"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/btThoat"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:layout_marginLeft="10dp"
+            android:background="#009688"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>

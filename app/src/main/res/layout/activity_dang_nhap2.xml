@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rbtNam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nendangnhap"
+    android:orientation="vertical"
+    tools:context=".Lab1.DangNhap2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Đăng nhập"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/khung_nhap_text"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên đăng nhập"
+                android:drawableStart="@drawable/baseline_person_24"
+                android:textColor="@color/black"
+                android:paddingTop="20dp"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/txtTenDangNhap"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/dang">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/baseline_lock_24"
+                android:text="Mật khẩu"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/txtMatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Forget Password?"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="200dp"/>
+        <Button
+            android:id="@+id/btDangNhap"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:textColor="@color/white"
+            android:background="#FF5722"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+        <Switch
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Remember Me"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingRight="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btDangKy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Sign up"
+            android:textColor="#FF5722"
+            android:background="#070C26"/>
+    </LinearLayout>
+
+</LinearLayout>

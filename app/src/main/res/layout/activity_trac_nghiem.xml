@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rbtNam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab2.bai2.TracNghiem"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài trắc nghiệm"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/btGo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Đi đến câu hỏi ===>"
+        android:background="@drawable/bck"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"/>
+</LinearLayout>

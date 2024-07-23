@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rbtNam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Checkbox">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Thực hành checkbox"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="23dp" />
+
+        <CheckBox
+            android:id="@+id/cbBong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="đá bóng"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="452dp" />
+
+        <CheckBox
+            android:id="@+id/cbNhac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nghe nhạc"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="332dp" />
+
+        <CheckBox
+            android:id="@+id/cbPhim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xem phim"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="332dp" />
+
+        <CheckBox
+            android:id="@+id/cbHat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ca hát"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+        <CheckBox
+            android:id="@+id/cbSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="đọc sách"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="452dp" />
+
+        <CheckBox
+            android:id="@+id/cbDuLich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="du lịch"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+        <TextView
+            android:id="@+id/tvHienThi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="116dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btChon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="Chọn"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="513dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

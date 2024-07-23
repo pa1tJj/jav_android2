@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".TinhToan"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Lab4.ThucDon"
+            android:exported="false" />
+        <activity
+            android:name=".Lab3.bai2.List_DoAn"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.phan_lap3"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.phan_lap2"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.phan_lap1"
+            android:exported="false" />
+        <activity
+            android:name=".Lab3.bai1.Social"
+            android:exported="false" />
+        <activity
+            android:name=".Spiner"
+            android:exported="false" />
+        <activity
+            android:name=".Toolbal"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewV"
+            android:exported="false" />
+        <activity
+            android:name=".Lab2.bai2.cau1"
+            android:exported="false" />
+        <activity
+            android:name=".Lab2.bai3.GiaoVien"
+            android:exported="false" />
+        <activity
+            android:name=".Lab2.bai2.TracNghiem"
+            android:exported="false" />
+        <activity
+            android:name=".Lab2.bai3.ThongTinGiaoVien"
+            android:exported="false" />
+        <activity
+            android:name=".Lab2.bai2.cau2"
+            android:exported="false" />
+        <activity
+            android:name=".Lab2.bai2.tong"
+            android:exported="false" />
+        <activity
+            android:name=".Lab1.DangNhap2"
+            android:exported="false" />
+        <activity
+            android:name=".Lab1.DangKy2"
+            android:exported="false" />
+        <activity
+            android:name=".Lab1.MayTinhBoTui.ManHinhMayTinh"
+            android:exported="false" />
+        <activity
+            android:name=".baitap.BaiTap"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

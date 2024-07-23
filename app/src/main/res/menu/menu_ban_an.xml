@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ban1" android:title="Bàn 1"/>
+    <item android:id="@+id/ban2" android:title="Bàn 2"/>
+    <item android:id="@+id/ban3" android:title="Bàn 3"/>
+    <item android:id="@+id/ban4" android:title="Bàn 4"/>
+
+
+</menu>
